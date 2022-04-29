@@ -33,4 +33,6 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
     implementation 'androidx.lifecycle:lifecycle-livedata:2.3.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel:2.3.1'
+    implementation project(path: ':log')
+    implementation project(path: ':executor')
 }
