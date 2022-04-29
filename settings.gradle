@@ -1,2 +1,4 @@
+include ':executor'
+include ':log'
 include ':app'
 rootProject.name = "template"
